@@ -40,6 +40,10 @@ async def on_message(msg):
   if(msg.content.startswith("//cryptocurrency")):
     txt = reddit.cryptocurrency()
     await msg.channel.send(txt)
+    
+  if(msg.content.startswith("//bnp")):
+    txt = reddit.bnp()
+    await msg.channel.send(txt)
 
 keep_alive()
 client.run(os.environ['TOKEN'])
