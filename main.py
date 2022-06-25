@@ -27,7 +27,7 @@ async def on_message(msg):
 
   if(msg.content.startswith("//help")):
     # print('received')
-    await msg.channel.send('commands - //hello, //svquote, //ramquote, //cryptocurrency')
+    await msg.channel.send('commands - //hello, //svquote, //ramquote, //cryptocurrency, //bnp')
 
   if(msg.content.startswith("//svquote")):
     txt = scraping.svquote()
