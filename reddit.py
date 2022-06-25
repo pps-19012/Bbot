@@ -16,3 +16,11 @@ def cryptocurrency():
       if i==random_post_number:
           value = post.title + "\n" + post.url
           return value
+def bnp():
+  sub1 = reddit.subreddit("BeautifulNaturePhotos")
+  top1 = sub1.top(limit = 150)
+  random_post_number = random.randint(0,150)
+  for i,post in enumerate(top1):
+      if i==random_post_number:
+          value = post.url
+          return value
