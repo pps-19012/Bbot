@@ -8,4 +8,4 @@ A Discord bot in Python
 
 commands - //hello, //svquote, //ramquote, //cryptocurrency, //bnp, //memes, //dankmemes, //redditannounce, //worldnews, //gaming, //music, //movies, //news, //gif, //books, //sports, //showerthoughts, //earth, //jokes
 
-Add to your server: https://discord.com/api/oauth2/authorize?client_id=990133563271839765&permissions=536267454544&scope=bot
+Add to your discord server: https://discord.com/api/oauth2/authorize?client_id=990133563271839765&permissions=536267454544&scope=bot
